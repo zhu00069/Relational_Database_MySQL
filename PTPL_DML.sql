@@ -3,7 +3,7 @@
 -- CST 8334
 -- Year: 2019
 -- Last Modified: 2019-02-09
--- Aunthor: Bo Zhu
+-- Author: Bo Zhu
 -- Modify:Yali Fu
 
 
@@ -25,8 +25,8 @@ INSERT INTO User_T (userID, credentialID, userName, password, firstName, lastNam
 INSERT INTO User_T (userID, credentialID, userName, password, firstName, lastName, DOB, email, phone, creditScore, createDate) VALUES ('U00008', '', 'bob1009', '1234abc', 'Esther', 'Kit', to_date('22/01/1991','DD/MM/YYYY'),'bob622@gmial.com', '6132208981', '', to_date('08/11/2018','DD/MM/YYYY'));
 INSERT INTO User_T (userID, credentialID, userName, password, firstName, lastName, DOB, email, phone, creditScore, createDate) VALUES ('U00009', '', 'qqxx1234', '1234abc', 'Mary', 'Lee', to_date('19/03/1983','DD/MM/YYYY'), 'mary999@gmail.com', '6139997878', '', to_date('09/11/2018','DD/MM/YYYY'));
 
-INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000A', 'U00001', 'U00006', '000001', 'Financial Dilemma at BBT', 'If approved, the merger of BBT and SunTrust would create the sixth-biggest bank in the U.S., large enough to compete against the country’s largest lenders.', 'CLOSE', 500000.00, to_date('12/01/2018','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
-INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000B', 'U00002', 'U00007', '000002', 'Germany Restricts Facebook’s Data Gathering', 'The competition authority said the company could no longer combine data from different sources without explicit permission from users.', 'CLOSE', 1500000.00, to_date('01/01/2019','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
+INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000A', 'U00001', 'U00006', '000001', 'Financial Dilemma at BBT', 'If approved, the merger of BBT and SunTrust would create the sixth-biggest bank in the U.S., large enough to compete against the countryâ€™s largest lenders.', 'CLOSE', 500000.00, to_date('12/01/2018','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
+INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000B', 'U00002', 'U00007', '000002', 'Germany Restricts Facebookâ€™s Data Gathering', 'The competition authority said the company could no longer combine data from different sources without explicit permission from users.', 'CLOSE', 1500000.00, to_date('01/01/2019','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
 INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000C', 'U00003', '', '', 'Brexit stalemate scars prosperity, says Bank of England', 'According to the Bank of England latest assessment, the uncertainty of the last few months has left the UK in the weakest growth environment since the crisis - and those scars will linger.', 'OPEN', 500000.00, to_date('12/01/2019','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
 INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000D', 'U00004', '', '', 'OPP Title4', 'OPP Description4', 'OPEN', 1500000.00, to_date('05/01/2019','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
 INSERT INTO Opportunity_T (opportunityID, borrowerID, lenderID, operationID, oppoTitle, oppoDescription, status, fundAmount, expectedFundDate, createDate) VALUES ('OP000E', 'U00005', '', '', 'OPP Title5', 'OPP Description5', 'OPEN', 2000000.00, to_date('25/11/2019','DD/MM/YYYY'), to_date('12/01/2019','DD/MM/YYYY'));
