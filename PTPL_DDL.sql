@@ -4,7 +4,7 @@
 -- CST 8334
 -- Year: 2019
 -- Last Modified: 2019-02-09
--- Aunthor:Bo Zhu
+-- Author:Bo Zhu
 -- Modify:Yali Fu
 
 
